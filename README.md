@@ -1,0 +1,1 @@
+# Preparazione-verifica-angular-vettori
