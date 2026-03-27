@@ -1,8 +1,10 @@
+import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
+import { MacchinaComponent } from '../macchina/macchina';
 
 @Component({
   selector: 'app-container',
-  imports: [],
+  imports: [CommonModule, MacchinaComponent],
   templateUrl: './container.html',
   styleUrl: './container.css',
 })
