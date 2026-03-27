@@ -1,1 +1,9 @@
-<p>macchina works!</p>
+<div class="card m-2" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">{{ nomeMacchina }}</h5>
+    <p class="card-text">Componenti:</p>
+    <ul>
+      <li *ngFor="let p of pezzi">{{ p }}</li>
+    </ul>
+  </div>
+</div>
